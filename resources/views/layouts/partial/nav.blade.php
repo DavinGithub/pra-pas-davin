@@ -17,6 +17,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/orders/all">Orders</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/stock/all">Stock</a>
+        </li>
       </ul>
     </div>
   </div>

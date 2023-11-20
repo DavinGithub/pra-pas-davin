@@ -25,6 +25,24 @@ class Handler extends ExceptionHandler
     {
         $this->reportable(function (Throwable $e) {
             //
+            //composer create-project laravel/laravel nama
+            //php artisan make:model NamaModel -mc
+            //php artisan migrate:rollback
+            //php artisan migrate
+//             INSERT INTO student (nis, nama, tanggal_lahir, kelas, alamat)
+// VALUES ('0123', 'Solomon', '02-04-07', '11 PPLG 2', 'Bogor');
+
+// INSERT INTO student (nis, nama, tanggal_lahir, kelas, alamat)
+// VALUES ('0223', 'Davin', '11-05-07', '11 PPLG 2', 'Semarang');
+
+// INSERT INTO student (nis, nama, tanggal_lahir, kelas, alamat)
+// VALUES ('0323', 'Adit', '20-07-07', '11 PPLG 2', 'Solo');
+
+// INSERT INTO student (nis, nama, tanggal_lahir, kelas, alamat)
+// VALUES ('0423', 'Dude', '14-06-07', '11 PPLG 2', 'Kudus');
+
+// INSERT INTO student (nis, nama, tanggal_lahir, kelas, alamat)
+// VALUES ('0523', 'Nares', '23-04-07', '11 PPLG 2', 'Kudus');
         });
     }
 }
